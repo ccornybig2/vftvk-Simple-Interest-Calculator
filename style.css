@@ -2,6 +2,9 @@ body {
     background-color:black;
     font-family:arial;
     color:white
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h1 {
     color:grey;
@@ -13,7 +16,4 @@ h1 {
     width:300px;
     padding:20px;
     border-radius:25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
