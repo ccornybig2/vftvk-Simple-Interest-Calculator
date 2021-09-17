@@ -21,7 +21,7 @@ function compute()
     var interest = principal * years * rate /100;
     
     // show user the result
-    document.getElementById("result").innerHTML="If you deposit <strong>"+principal+"</strong>,\<br\>at an interest rate of <strong>"+rate+"</strong>%\<br\>You will receive an amount of <strong>"+interest+"</strong>,\<br\>in the year <strong>"+year+"</strong>.\<br\>"; 
+    document.getElementById("result").innerHTML="If you deposit <mark>"+principal+"</mark>,\<br\>at an interest rate of <mark>"+rate+"</mark>%\<br\>You will receive an amount of <mark>"+interest+"</mark>,\<br\>in the year <mark>"+year+"</mark>.\<br\>"; 
 }
 
 // updating the value of "range" input for better user experience
